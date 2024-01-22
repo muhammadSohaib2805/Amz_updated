@@ -55,7 +55,7 @@ const EbookWriting = () => {
                         <div className="col-45">
                             <h1 className='text__shadow fs_40 text-white fw_700'><span className='text__orange'>AMAZON PUBLISHER PROS</span>: YOUR GO-TO CHOICE FOR CUSTOM EBOOK WRITING</h1>
                             <h5 className='fs_23 fw_700 text-white'>DO YOU HAVE GREAT IDEAS FOR AN EBOOK BUT NEED EXPERT HELP TO BRING THEM TO LIFE? LOOK NO FURTHER!</h5>
-                            <p className='fs_16 fw_400 text-white'>At Amazon Publisher Pros, we offer top-notch eBook writing services that captivate your readers and drive more traffic to your book. When it comes to custom eBook writing, we're the ultimate choice. Let's collaborate and unlock the benefits together!
+                            <p className='fs_16 fw_600 text-white'>At Amazon Publisher Pros, we offer top-notch eBook writing services that captivate your readers and drive more traffic to your book. When it comes to custom eBook writing, we're the ultimate choice. Let's collaborate and unlock the benefits together!
                             </p>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
@@ -168,10 +168,10 @@ const EbookWriting = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Ready To Let The Pros Boost Your Book Sales?</h2>
                             <h5 className='fw_600 mb-3 fs_20'>Tired of waiting for readers to discover your book?</h5>
                             <h6 className='fw_600 mb-3 fs_20'>Get started today and enjoy up to 50% off on all our packages.</h6>
@@ -262,7 +262,7 @@ const EbookWriting = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Get Your Book Started With Amazon Publisher Pros</h2>
                         <p className='fs_16 fw_400'>At Amazon Publisher Pros, we offer a one-stop solution for all your book formatting needs.

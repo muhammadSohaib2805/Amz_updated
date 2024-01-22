@@ -57,7 +57,7 @@ const Formatting = () => {
                                 GET EXPERT<br />
                                 <span className='text__orange'> FORMATTING ASSISTANCE</span><br />
                                 FOR YOUR BOOKS!</h1>
-                            <p className='fs_16 fw_400 text-white'>Are you struggling with formatting your
+                            <p className='fs_20 fw_400 text-white'>Are you struggling with formatting your
                                 book to meet international standards?
                                 Don't worry, we've got you covered.
                                 At <span className='text__orange'> Amazon Publisher Pros</span>,
@@ -227,7 +227,7 @@ const Formatting = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Perfect Book Formatting</h2>
@@ -263,7 +263,7 @@ const Formatting = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Get Your Books In Top Shape With Amazon Publisher Pros!</h2>
                         <p className='fs_16 fw_400'>At Amazon Publisher Pros, we offer a one-stop solution for all your book formatting needs. We're here to assist you with book writing, editing, publishing, and marketing. Let us help you succeed!</p>

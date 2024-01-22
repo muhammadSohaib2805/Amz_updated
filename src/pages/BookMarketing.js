@@ -57,10 +57,10 @@ const BookMarketing = () => {
                                 CRAFTING
                                 <span className='text__orange'> BESTSELLING BOOKS</span></h1>
                             <h5 className='fs_21 fw_400 text-white'>Trusted by 200+ Authors Worldwide.</h5>
-                            <h5 className='fs_21 fw_400 text-white'>With a Team of 2000+ Ghostwriters and editors.</h5>
-                            <h5 className='fs_21 fw_400 text-white'>We Guarantee 100% Satisfaction and On-Time Delivery.</h5>
-                            <h5 className='fs_21 fw_400 text-white'>Write down your Name, Email, and Phone Number to Contact our team.</h5>
-                            <div className="d-flex justify-content-lg-start justify-content-center gap-2">
+                            <h5 className='fs_21 fw_400 text-white pt-lg-2'>With a Team of 2000+ Ghostwriters and editors.</h5>
+                            <h5 className='fs_21 fw_400 text-white pt-lg-2'>We Guarantee 100% Satisfaction and On-Time Delivery.</h5>
+                            <h5 className='fs_21 fw_400 text-white pt-lg-2'>Write down your Name, Email, and Phone Number to Contact our team.</h5>
+                            <div className="d-flex justify-content-lg-start justify-content-center gap-2 pt-lg-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
                             </div>
@@ -142,7 +142,7 @@ const BookMarketing = () => {
                     <div className="row align-items-center">
                         <div className="col-md-6">
                             <h6 className='fs_16 fw_400'>Are you ready to publish your book, or are you stuck in a tricky situation with your writing? We're here to guide you. At Gold Ghostwriters, we provide a one-stop solution for all your book needs:</h6>
-                            <ul className='list-unstyled'>
+                            <ul className='list-unstyled mx-3'>
                                 <li className='fs_15 fw_400'><FaCheckDouble className='fs_20 text__black' /> <span className='fw-bold text-success'>Ghostwriting:</span> Let us write your book for you.</li>
                                 <li className='fs_15 fw_400'><FaCheckDouble className='fs_20 text__black' /> <span className='fw-bold text-success'>E-book Writing:</span> We can create e-books for you</li>
                                 <li className='fs_15 fw_400'><FaCheckDouble className='fs_20 text__black' /> <span className='fw-bold text-success'>Editing and Formatting:</span>We'll polish your work and make it look great..</li>
@@ -165,10 +165,10 @@ const BookMarketing = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Ready To Let The Pros Boost Your Book Sales?</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Tired of waiting for readers to discover your book?</h6>
                             <h6 className='fw_600 mb-3 fs_18'>Get started today and enjoy up to 50% off on all our packages.</h6>
@@ -217,7 +217,7 @@ const BookMarketing = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR SIMPLE PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Submit Your Manuscript</h2>
@@ -252,7 +252,7 @@ const BookMarketing = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Discover The Ultimate Ghostwriting Solution With Amazon Publisher Pros!</h2>
                         <p className='fs_16 fw_400'>We’ve got your back for all your ghostwriting needs. Amazon Publisher Pros provides comprehensive services for writing, editing, publishing, and promoting your book.</p>

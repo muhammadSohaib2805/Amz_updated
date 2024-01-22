@@ -56,7 +56,7 @@ const AuthorWebsite = () => {
                             <h1 className='text__shadow fs_40 text-white fw_700'>
                                 ELEVATE YOUR BRAND WITH OUR
                                 <span className='text__orange'> AUTHOR WEBSITE DESIGN</span></h1>
-                            <h5 className='fs_21 fw_400 text-white'>Do you dream of recognition? Have you written a book close to your heart? There's no better way to shine than with a top-notch website. Amazon Publisher Pros is here to turn your dreams of becoming a bestselling author into reality. Unlike most one-size-fits-all platforms, we tailor our web services just for you. Let us handle it – our experts will swiftly build your author website.</h5>
+                            <h5 className='fs_23 fw_400 text-white'>Do you dream of recognition? Have you written a book close to your heart? There's no better way to shine than with a top-notch website. Amazon Publisher Pros is here to turn your dreams of becoming a bestselling author into reality. Unlike most one-size-fits-all platforms, we tailor our web services just for you. Let us handle it – our experts will swiftly build your author website.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -161,10 +161,10 @@ const AuthorWebsite = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-4 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Struggling To Create Your Author's Website?</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Why not bring in a skilled website developer to build your brand professionally? Get started today and enjoy up to 50% off on all our packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
@@ -212,7 +212,7 @@ const AuthorWebsite = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Understand Your Needs</h2>
@@ -246,7 +246,7 @@ const AuthorWebsite = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <p className='fs_16 fw_400'>Want your name on a professional website? We can help! Contact Amazon Publisher Pros for
                             reliable and customized website building services.</p>

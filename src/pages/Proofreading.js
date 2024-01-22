@@ -57,7 +57,7 @@ const Proofreading = () => {
                             PROFESSIONAL BOOK PROOFREADING SERVICES FOR 
                                 <span className='text__orange'> AMAZON PUBLISHER </span></h1>
                             <h5 className='fs_21 fw_400 text-white'>Our skilled team of Amazon Publisher Pros proofreaders is here to make your book shine. We meticulously review your manuscript, fixing every little error to ensure your readers can trust your work. Click on Free Consultation or Write My Book.</h5>
-                            <h5 className='fs_21 fw_400 text-white'>Write down your Name, Email, and Phone Number to Contact our team.</h5>
+                            <h5 className='fs_21 fw_400 text-white pt-lg-2 pb-lg-2'>Write down your Name, Email, and Phone Number to Contact our team.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -157,10 +157,10 @@ const Proofreading = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>We Turn Your Ideas Into Words!</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Get Started Now and Save up to 50% on All Our Packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
@@ -208,7 +208,7 @@ const Proofreading = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Upload Your Manuscript</h2>
@@ -236,7 +236,7 @@ const Proofreading = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>YOUR ONE-STOP GHOSTWRITING SOLUTION AT AMAZON PUBLISHER PROS</h2>
                         <p className='fs_16 fw_400'>We're here to guide you in the world of ghostwriting. Amazon Publisher Pros is your destination for all your book writing, editing, publishing, and marketing needs.</p>

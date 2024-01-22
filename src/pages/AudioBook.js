@@ -58,7 +58,7 @@ const AudioBook = () => {
                             <h5 className='fs_23 fw_700 text-white'>WE CAN HELP YOU TURN YOUR<br />
                                 WRITTEN WORKS INTO<br />
                                 <span className='text__orange'> CAPTIVATING AUDIOBOOKS</span>!</h5>
-                            <p className='fs_16 fw_400 text-white'>In today's world, audiobooks are a
+                            <p className='fs_21 fw_500 text-white'>In today's world, audiobooks are a
                                 great choice, and we're here to
                                 assist you. Book Writing Experts
                                 provides Audiobook Recording and
@@ -224,7 +224,7 @@ const AudioBook = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR SIMPLE PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Send Us Your Draft</h2>
@@ -258,7 +258,7 @@ const AudioBook = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Looking To Connect With Your Audience In More Than Just Writing?</h2>
                         <p className='fs_16 fw_400'>We've got audiobook solutions designed just for your story! It's the perfect moment to start recording and sharing your audiobook!</p>

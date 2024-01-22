@@ -56,7 +56,7 @@ const ArticleWriting = () => {
                             <h1 className='text__shadow fs_40 text-white fw_700'>
                                 CAPTIVATE YOUR READERS WITH AMAZON PUBLISHER PROS' ARTICLE
                                 <span className='text__orange'> WRITING SERVICES!</span></h1>
-                            <h5 className='fs_21 fw_400 text-white'>Don't miss out on the opportunity to engage your audience with captivating articles. Words are potent tools! At Amazon Publisher Pros, we have a team of skilled writers ready to generate excitement among readers just before your book's launch. Plus, we're committed to delivering top-notch article-writing services that won't break the bank. What more could you need?</h5>
+                            <h5 className='fs_20 fw_400 text-white'>Don't miss out on the opportunity to engage your audience with captivating articles. Words are potent tools! At Amazon Publisher Pros, we have a team of skilled writers ready to generate excitement among readers just before your book's launch. Plus, we're committed to delivering top-notch article-writing services that won't break the bank. What more could you need?</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -161,11 +161,11 @@ const ArticleWriting = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-4 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-8">
-                            <h2 className='fw_300 mb-3 fs_32'>Looking for top-notch article writing? Let us be your go-to team for inspiring and educating your readers! If you're struggling to find the right writer to boost your website traffic, we've got you covered.</h2>
+                        <div className="col-md-7">
+                            <h2 className='fw_300 mb-3 fs_18'>Looking for top-notch article writing? Let us be your go-to team for inspiring and educating your readers! If you're struggling to find the right writer to boost your website traffic, we've got you covered.</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Get started today and enjoy up to 50% off on all our packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
                                 <button onClick={openLiveChat} className='border-0 btn bg__orange text__black rounded-pill fs_16 fw_600'>Start Chatting Live</button>
@@ -212,7 +212,7 @@ const ArticleWriting = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">HOW WE WORK</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Understanding Your Needs</h2>
@@ -247,7 +247,7 @@ const ArticleWriting = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Are You Tired Of Your Website's Stale Content? Let Us Freshen It Up And Make It More User-Friendly For Your Visitors</h2>
                         <div className='d-flex mb-3 gap-2 align-items-center'>

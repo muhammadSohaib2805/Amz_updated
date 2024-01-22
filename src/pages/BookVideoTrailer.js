@@ -57,7 +57,7 @@ const BookVideoTrailer = () => {
                                 SHOW OFF YOUR<br />
                                 BOOK WITH<br />
                                 <span className='text__orange'> VIDEO TRAILERS!</span></h1>
-                            <h5 className='fs_21 fw_700 text-white'>We offer exciting book trailer services to create buzz around your digital content. Get your readers excited before your book's release, and enjoy the increased engagement and support! Our expert video book trailers can help build anticipation in the market. In today's digital age, everyone knows the impact of video.</h5>
+                            <h5 className='fs_20 fw_500 text-white'>We offer exciting book trailer services to create buzz around your digital content. Get your readers excited before your book's release, and enjoy the increased engagement and support! Our expert video book trailers can help build anticipation in the market. In today's digital age, everyone knows the impact of video.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -161,10 +161,10 @@ const BookVideoTrailer = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Easily Get Book Video Trailers With Amazon Publisher Pros!</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Promoting Your Book is a Breeze with the Right Tools! Contact Us Today!</h6>
                             <h6 className='fw_300 mb-3 fs_20'>Get started today and enjoy up to 50% off on all our packages.</h6>
@@ -224,7 +224,7 @@ const BookVideoTrailer = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Client Discussion and Draft Submission</h2>
@@ -258,7 +258,7 @@ const BookVideoTrailer = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Harness The Power Of Book Video Promotion</h2>
                         <p className='fs_16 fw_400'>A book video trailer is an incredibly compelling way to promote your book. We specialize in creating these unique videos to help you market your books like nobody else can. Contact us now to start promoting your book through video.</p>

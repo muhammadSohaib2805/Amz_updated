@@ -55,8 +55,8 @@ const BookCover = () => {
                         <div className="col-45">
                             <h1 className='text__shadow fs_40 text-white fw_700'>
                             ELEVATE YOUR BOOK WITH STUNNING COVERS</h1>
-                            <h5 className='fs_21 fw_400 text-white'>We all know you can't always judge a book by its cover, but a captivating cover can work wonders! At Amazon Publisher Pros, we turn your manuscript into a potential bestseller with our fantastic book cover design services.</h5>
-                            <h5 className='fs_21 fw_400 text-white'>We transform your vision into a visually appealing reality, ensuring your book stands out and draws in more readers, ultimately leading to greater success. Trust us to make your investment in a book cover design worthwhile.</h5>
+                            <h5 className='fs_20 fw_400 text-white'>We all know you can't always judge a book by its cover, but a captivating cover can work wonders! At Amazon Publisher Pros, we turn your manuscript into a potential bestseller with our fantastic book cover design services.</h5>
+                            <h5 className='fs_20 fw_400 text-white'>We transform your vision into a visually appealing reality, ensuring your book stands out and draws in more readers, ultimately leading to greater success. Trust us to make your investment in a book cover design worthwhile.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -161,10 +161,10 @@ const BookCover = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Need A Stunning Book Cover? Get In Touch With Professional Designers!</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Are you searching for eye-catching book covers?</h6>
                             <h6 className='fw_300 mb-3 fs_20'>Get started today and enjoy up to 50% off on all our packages.</h6>
@@ -212,7 +212,7 @@ const BookCover = () => {
             </div>
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS</h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Submit Your Manuscript</h2>

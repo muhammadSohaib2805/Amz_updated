@@ -138,10 +138,10 @@ const Publishing = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>We Turn Your Ideas Into Words!</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Get Started Now and Save up to 35% on All Our Packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
@@ -190,7 +190,7 @@ const Publishing = () => {
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS
                 </h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Manuscript Submission</h2>
@@ -226,7 +226,7 @@ const Publishing = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Get All Your Ghostwriting Needs Sorted With Amazon Publisher Pros!</h2>
                         <p className='fs_16 fw_400'>We’ve got you covered. We offer everything you need for writing, editing, publishing, and promoting your book at Amazon Publisher Pros. It’s your one-stop solution!</p>

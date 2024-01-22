@@ -56,7 +56,7 @@ const BookEditing = () => {
                             <h1 className='text__shadow fs_40 text-white fw_700'>
                                 GET YOUR MANUSCRIPT PROFESSIONALLY EDITED AT
                                 <span className='text__orange'> AMAZON PUBLISHER PROS!</span></h1>
-                            <h5 className='fs_21 fw_400 text-white'>If you're a writer with big dreams, we offer top-notch book editing services to help you turn your rough draft into a polished masterpiece. Writing is just the beginning, and our team of experts at Amazon Publisher Pros is here to help you shape and enhance your text to create a well- structured book.</h5>
+                            <h5 className='fs_23 fw_400 text-white'>If you're a writer with big dreams, we offer top-notch book editing services to help you turn your rough draft into a polished masterpiece. Writing is just the beginning, and our team of experts at Amazon Publisher Pros is here to help you shape and enhance your text to create a well- structured book.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -141,10 +141,10 @@ const BookEditing = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-6 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Turn Your Ideas Into Words!</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Get started today and enjoy up to 35% off on all our packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
@@ -193,7 +193,7 @@ const BookEditing = () => {
             <div class="timeline-section pt-3">
                 <h2 className="text-center fs_32 mb-3 text-white fw_700">OUR PROCESS
                 </h2>
-                <div class="timeline">
+                <div class="timeline pb-lg-3">
                     <div class="inner left">
                         <div class="content">
                             <h2 className='fs_24 fw_700'>Manuscript Submission</h2>
@@ -229,7 +229,7 @@ const BookEditing = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Get Your Book Started With Amazon Publisher Pros</h2>
                         <p className='fs_16 fw_400'>Are you ready to write your book? Our ghostwriters are here to help. We're excited to work on your manuscript and can't wait to bring your next masterpiece to life. Give us a call today and let's get started!</p>

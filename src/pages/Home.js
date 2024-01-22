@@ -184,7 +184,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">
-              <h2 className='fs_36 lh_1 d-none d-lg-block text-start px-5 fw_700 text__black mx-5'>Elevate Your Brand With <span className='text__orange'>Amazon Publisher Pros</span>
+              <h2 className='fs_36 lh_1 d-none d-lg-block text-start px-5 fw_700 text__black'>Elevate Your Brand With <span className='text__orange'>Amazon Publisher Pros</span>
                 <br />Book Publishing</h2>
               <h2 className='fs_36 d-block d-lg-none lh_1 text-center fw_700 text__black '>Elevate Your Brand With <span className='text__orange'>Amazon Publisher Pros</span>
                 <br />Book Publishing</h2>

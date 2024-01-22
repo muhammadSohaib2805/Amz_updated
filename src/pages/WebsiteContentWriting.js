@@ -56,7 +56,7 @@ const WebsiteContentWriting = () => {
                             <h1 className='text__shadow fs_40 text-white fw_700'>
                             GET OUTSTANDING WEB CONTENT FOR YOUR BRAND WITH
                                 <span className='text__orange'> AMAZON PUBLISHER PROS</span></h1>
-                            <h5 className='fs_21 fw_400 text-white'>Is your website's content old and in need of a refresh? Amazon Publisher Pros is here to help! We create top-notch website content that's not only great for SEO but also guarantees more visitors and increased sales. Our team of expert writers is ready to provide you with the best and budget- friendly writing solutions.</h5>
+                            <h5 className='fs_23 fw_400 text-white'>Is your website's content old and in need of a refresh? Amazon Publisher Pros is here to help! We create top-notch website content that's not only great for SEO but also guarantees more visitors and increased sales. Our team of expert writers is ready to provide you with the best and budget- friendly writing solutions.</h5>
                             <div className="d-flex justify-content-lg-start justify-content-center gap-2">
                                 <button onClick={scrollToTop} className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>START PROJECT</button>
                                 <NavLink to="tel:1-216-777-2526" className='btn border-0 bg__orange text__black rounded-pill fs_18 fw_600'>CALL NOW</NavLink>
@@ -161,10 +161,10 @@ const WebsiteContentWriting = () => {
             <div className="discount-section py-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-4 d-flex justify-content-end">
+                        <div className="col-md-5 d-flex justify-content-end">
                             <img src={dis} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <h2 className='fw_600 mb-3 fs_32'>Talk To Our Expert Writers To Meet Your Goals With Amazon Publisher Pros! Looking To Boost Your Website Visits?</h2>
                             <h6 className='fw_600 mb-3 fs_20'>Get started today and enjoy up to 50% off on all our packages.</h6>
                             <div className='d-flex mb-3 gap-2 align-items-center'>
@@ -212,7 +212,7 @@ const WebsiteContentWriting = () => {
                 </div>
             </div>
             <div className='container py-5'>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-md-6">
                         <h2 className='fs_32 fw_700'>Are You Tired Of Your Website's Stale Content? Let Us Freshen It Up And Make It More User-Friendly For Your Visitors</h2>
                         <div className='d-flex mb-3 gap-2 align-items-center'>
